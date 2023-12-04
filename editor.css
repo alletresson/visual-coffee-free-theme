@@ -24,8 +24,6 @@ a:hover,
 a:focus,
 a.more,
 a.more:hover {
-	-webkit-text-decoration-skip: objects;
-	text-decoration-skip: objects;
 	transition: 0.4s all ease-in;
 	text-decoration: none;
 	color: var(--accent);

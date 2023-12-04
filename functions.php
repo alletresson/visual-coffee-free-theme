@@ -5,7 +5,7 @@ if ( ! isset( $content_width ) ) {
 }
 
 //Set version constant
-define( 'VISUALCOFFEE_VERSION', '1.6' );
+define( 'VISUALCOFFEE_VERSION', '1.8' );
 
 // Theme setup
 if ( ! function_exists( 'visualcoffee_setup' ) ) {
@@ -59,7 +59,6 @@ function visualcoffee_scripts() {
 	// Enqueue the editor css
 	wp_enqueue_style( 'visualcoffee-editor-style', get_template_directory_uri() . '/editor.css', array(), VISUALCOFFEE_VERSION );
 
-	wp_enqueue_script( 'visualcoffee-nprogress', get_template_directory_uri() . '/assets/js/nprogress.min.js', array( 'jquery' ), VISUALCOFFEE_VERSION, true );
 	wp_enqueue_script( 'visualcoffee-customjs', get_template_directory_uri() . '/assets/js/custom.min.js', array( 'jquery' ), VISUALCOFFEE_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

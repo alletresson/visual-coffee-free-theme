@@ -2,13 +2,13 @@
 Contributors: visualcoffee
 Tags: blog, two-columns, right-sidebar, grid-layout, custom-background, custom-menu, custom-logo, editor-style, theme-options, threaded-comments, translation-ready
 Requires at least: 4.7
-Tested up to: 6.4.1
-Stable tag: 1.7
+Tested up to: 6.4
+Stable tag: 1.8
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
-Visual Coffee WordPress Theme, Copyright 2020 alletresson.com
-Visual Coffee is distributed under the terms of the GNU GPL
+Visual Coffee WordPress Theme, Copyright 2020 sava.io
+Visual Coffee is distributed under the terms of the GNU GPL.
 
 == Description ==
 Vintage minimalist theme. Includes social media icons (configurable from Appearance -> Customize).
@@ -33,12 +33,16 @@ To display the icons in header follow these steps:
 
 == Changelog ==
 
+= 1.8 =
+* Removed nprogress.js
+* Updated author credits
+
 = 1.7 =
 * Tested with WordPress 6.4.1
 * Removed footer credit link
 * Updated author credits
 
-= 1.6 =
+= 1.8 =
 * Fixed translatable strings for Published and Last Updated (changed from _e to _x)
 * Small css improvements
 * Updated translation file
@@ -75,8 +79,6 @@ To display the icons in header follow these steps:
 * Initial release
 
 == Resources ==
-* NProgress loading bar © 2013-2017, Rico Sta. Cruz., MIT
-
 * Image for theme screenshot, Copyright Burst
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://stocksnap.io/photo/woman-driving-G8GSBPQZUB

@@ -1,4 +1,4 @@
-//! Version: 1.6
+//! Version: 1.8
 
 // jQuery formatted selector to search for focusable items
 var focusableElementsString = "a[href], button:not([disabled])";
@@ -7,8 +7,6 @@ var focusableElementsString = "a[href], button:not([disabled])";
 var focusedElementBeforeModal;
 
 jQuery(document).ready(function ($) {
-	NProgress.start();
-
 	// Main menu
 	$('#nav-toggle').click(function(e) {
 		showModal($('#menu-modal'));
@@ -20,10 +18,6 @@ jQuery(document).ready(function ($) {
 		trapTabKey($(this), event);
 		trapEscapeKey($(this), event);
 	})
-});
-
-jQuery(window).on('load', function () {
-	NProgress.done();
 });
 
 function trapEscapeKey(obj, evt) {
