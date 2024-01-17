@@ -3,11 +3,11 @@ Contributors: visualcoffee
 Tags: blog, two-columns, right-sidebar, grid-layout, custom-background, custom-menu, custom-logo, editor-style, theme-options, threaded-comments, translation-ready
 Requires at least: 4.7
 Tested up to: 6.4
-Stable tag: 1.8
+Stable tag: 1.9
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
-Visual Coffee WordPress Theme, Copyright 2020 sava.io
+Visual Coffee WordPress Theme, Copyright 2020 arnesava.com
 Visual Coffee is distributed under the terms of the GNU GPL.
 
 == Description ==
@@ -33,6 +33,11 @@ To display the icons in header follow these steps:
 
 == Changelog ==
 
+= 1.9 =
+* Removed unused customizer.css file
+* Fixed translatable strings for Published (changed from _e to _x)
+* Updated author credits
+
 = 1.8 =
 * Removed nprogress.js
 * Updated author credits
@@ -42,8 +47,8 @@ To display the icons in header follow these steps:
 * Removed footer credit link
 * Updated author credits
 
-= 1.8 =
-* Fixed translatable strings for Published and Last Updated (changed from _e to _x)
+= 1.6 =
+* Fixed translatable strings for Last Updated (changed from _e to _x)
 * Small css improvements
 * Updated translation file
 

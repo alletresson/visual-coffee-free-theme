@@ -42,9 +42,9 @@ function visualcoffee_posted_on( $args = array() ) {
 	);
 
 	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
-		echo '<div class="posted-on">' . _e( 'Published on', 'visual-coffee' ) . ' ' . $posted_on . ' ' . _x( '— Last update', 'visual-coffee' ) . ' ' . $updated_on . '</div>';
+		echo '<div class="posted-on">' . _x( 'Published ', 'visual-coffee' ) . $posted_on . ' ' . _x( '— Last update', 'visual-coffee' ) . ' ' . $updated_on . '</div>';
 	} else {
-		echo '<div class="posted-on">' . _e( 'Published on', 'visual-coffee' ) . ' ' . $postedupdated_on . '</div>';
+		echo '<div class="posted-on">' . _x( 'Published ', 'visual-coffee' ) . $postedupdated_on . '</div>';
 	}
 }
 
